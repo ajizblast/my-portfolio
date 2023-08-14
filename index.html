@@ -8,6 +8,9 @@
   <title>Portfolio.</title>
   <!-- Custom -->
   <link rel="stylesheet" href="css/main.css" />
+  <link rel="stylesheet" stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+    integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />">
 </head>
 
 <body>
@@ -16,7 +19,7 @@
     <div class="navbar">
       <div class="navWrapper">
         <div class="logo">
-          <a href="#hero">Portfolio.</a>
+          <a href="#hero">Home</a>
         </div>
         <div class="hamburger">
           <span style="font-size: 30px; cursor: pointer">&#9776;</span>
@@ -25,10 +28,8 @@
           <li>
             <a href="#about">About</a>
             <a href="#work">Work</a>
-            <a href="#pricing">Pricing</a>
-            <a href="#faq">FAQ's</a>
           </li>
-          <a href="#hire" class="btn mL60">Hire me</a>
+          <a href="#contact" class="btn mL60">Contact Me</a>
         </ul>
       </div>
     </div>
@@ -37,12 +38,10 @@
       <div class="overlay-content">
         <ul>
           <li>
-            <a href="#about">About</a>
+            <a href="#about" class="RNBT">About</a>
             <a href="#work">Work</a>
-            <a href="#pricing">Pricing</a>
-            <a href="#faq" class="RNB">FAQ's</a>
           </li>
-          <a href="#hire" class="btn">Hire me</a>
+          <a href="#contact" class="btn">Contact Me</a>
         </ul>
       </div>
     </div>
@@ -55,7 +54,7 @@
         <img src="images/hero-section/shapes1.png" alt="" class="shape" id="shape1" />
         <img src="images/hero-section/shapes2.png" alt="" class="shape" id="shape2" />
         <img src="images/hero-section/shapes3.png" alt="" class="shape" id="shape3" />
-        <img src="images/hero-section/shapes4.png" alt="" class="shape" id="shape4" />
+        <!-- <img src="images/hero-section/shapes4.png" alt="" class="shape" id="shape4" /> -->
       </div>
       <!-- right Shapes-->
       <div id="HRS">
@@ -72,13 +71,25 @@
             assisted by Bootstrap or Tailwind and MUI, Golang as the Back-end assisted by Echo, and Postgree as the
             database manager. We can also help build websites through Wordpress, Shopify, Webflow, Bubble.
           </p>
+          <ul class="social-icons">
+            <li><a href="https://github.com/ajizblast"><i class="fa-brands fa-github-alt fa-fade"></i></a></li>
+            <li><a href="https://linkedin.com/in/chahyo"><i class="fa-brands fa-linkedin-in fa-fade"></i></a></li>
+            <li><a href="https://dribbble.com/cpacreature"><i class="fa-brands fa-dribbble fa-fade"></i></a></li>
+            <li><a href="https://wa.me/6285161052522"><i class="fa-brands fa-whatsapp fa-fade"></i></a></li>
+          </ul>
           <a href="#work" class="btn mT50">View Portfolios</a>
         </div>
       </div>
-      <div class="container">
+      <!-- <div class="container">
         <div class="icon-section mT100">
           <h2 class="font40">How it works</h2>
           <div>
+            <div class="icon-item">
+              <img src="images/icon4.png" alt="" srcset="" />
+              <p class="font20 bold">
+                Choose Front End, <br />Backend, Fullstack
+              </p>
+            </div>
             <div class="icon-item">
               <img src="images/icon1.png" alt="" srcset="" />
               <p class="font20 bold">Create an account</p>
@@ -97,16 +108,9 @@
                 you're happy
               </p>
             </div>
-            <div class="icon-item">
-              <img src="images/icon4.png" alt="" srcset="" />
-              <p class="font20 bold">
-                Cancel or pause <br />
-                at anytime
-              </p>
-            </div>
           </div>
         </div>
-      </div>
+      </div> -->
     </section>
     <!-- X - X - X -->
 
@@ -120,13 +124,13 @@
     <div class="marquee">
       <ul class="marquee-content">
         <li><span></span></li>
-        <li>Unlimited Design</li>
+        <li>React JS</li>
         <li><span></span></li>
-        <li>Unlimited Revisions</li>
+        <li>Golang</li>
         <li><span></span></li>
-        <li>Neat & Clean Code</li>
+        <li>Full Stack Web Developer</li>
         <li><span></span></li>
-        <li>Get in touch</li>
+        <li>UI/UX</li>
       </ul>
     </div>
     <!-- X - X - X -->
@@ -155,7 +159,7 @@
           a call!
         </p>
         <div class="mT70">
-          <a href="#a" class="btn">Book a call</a>
+          <a href="#contact" class="btn">Contact Me</a>
         </div>
       </div>
     </section>
@@ -170,196 +174,143 @@
     <!-- projects -->
     <section class="project container Vcontainer" id="work">
       <h1 class="font72">Work Examples</h1>
+      <!-- <div class="card">
+        <img src="images/projects1.png" alt="" />
+        <div class="card-text">
+          <a href="http://">Github</a>
+          <a href="http://">Live Site</a>
+          <a href="http://">Figma</a>
+        </div>
+
+      </div> -->
       <div class="projectCards mT100">
-        <div>
-          <img src="images/project1.png" alt="" />
+        <div class="card-list">
+          <article class="card">
+            <figure class="card-image">
+              <img src="images/projects1.png" alt="" />
+            </figure>
+            <div class="card-header">
+              <a href="https://github.com/ajizblast">Github</a>
+              <a href="#">Live Site</a>
+              <a href="#">Figma</a>
+            </div>
+            <div class="card-footer">
+              <div class="card-meta card-meta--views">
+                <p>Landtick</p>
+              </div>
+              <div class="card-meta card-meta--views">
+                <p>Ticket booking website</p>
+              </div>
+            </div>
+          </article>
         </div>
-        <div>
-          <img src="images/project2.png" alt="" />
+        <div class="card-list">
+          <article class="card1">
+            <figure class="card-image">
+              <img src="images/projects1.png" alt="" />
+            </figure>
+            <div class="card-header">
+              <a href="https://github.com/ajizblast">Github</a>
+              <a href="#">Live Site</a>
+              <a href="#">Figma</a>
+            </div>
+            <div class="card-footer">
+              <div class="card-meta card-meta--views">
+                <p>Dumb Sound</p>
+              </div>
+              <div class="card-meta card-meta--views">
+                <p>Website Music Player</p>
+              </div>
+            </div>
+          </article>
         </div>
-        <div>
-          <img src="images/project3.png" alt="" />
+        <div class="card-list">
+          <article class="card2">
+            <figure class="card-image">
+              <img src="images/projects1.png" alt="" />
+            </figure>
+            <div class="card-header">
+              <a href="https://github.com/ajizblast">Github</a>
+              <a href="#">Live Site</a>
+              <a href="#">Figma</a>
+            </div>
+            <div class="card-footer">
+              <div class="card-meta card-meta--views">
+                <p>Holy Ways</p>
+              </div>
+              <div class="card-meta card-meta--views">
+                <p>Charity Donation Web</p>
+              </div>
+            </div>
+          </article>
         </div>
       </div>
-      <a href="#a" class="btn mT120">View all projects</a>
+      <div class="projectCards mT100">
+        <div class="card-list">
+          <article class="card">
+            <figure class="card-image">
+              <img src="images/project01.png" alt="" />
+            </figure>
+            <div class="card-header">
+              <a href="https://github.com/ajizblast">Github</a>
+              <a href="https://aji.biz.id">Live Site</a>
+              <a href="#">Figma</a>
+            </div>
+            <div class="card-footer">
+              <div class="card-meta card-meta--views">
+                <p>My Site</p>
+              </div>
+              <div class="card-meta card-meta--views">
+                <p>Portfolio Website</p>
+              </div>
+            </div>
+          </article>
+        </div>
+        <!-- <div class="card-list">
+          <article class="card1">
+            <figure class="card-image">
+              <img src="images/projects1.png" alt="" />
+            </figure>
+            <div class="card-header">
+              <a href="https://github.com/ajizblast">Github</a>
+              <a href="#">Live Site</a>
+              <a href="#">Figma</a>
+            </div>
+            <div class="card-footer">
+              <div class="card-meta card-meta--views">
+                <p>Dumb Sound</p>
+              </div>
+              <div class="card-meta card-meta--views">
+                <p>Website Music Player</p>
+              </div>
+            </div>
+          </article>
+        </div>
+        <div class="card-list">
+          <article class="card2">
+            <figure class="card-image">
+              <img src="images/projects1.png" alt="" />
+            </figure>
+            <div class="card-header">
+              <a href="https://github.com/ajizblast">Github</a>
+              <a href="#">Live Site</a>
+              <a href="#">Figma</a>
+            </div>
+            <div class="card-footer">
+              <div class="card-meta card-meta--views">
+                <p>Holy Ways</p>
+              </div>
+              <div class="card-meta card-meta--views">
+                <p>Charity Donation Web</p>
+              </div>
+            </div>
+          </article>
+        </div> -->
+      </div>
     </section>
     <!-- X - X - X -->
 
-    <!-- wavy-border -->
-    <div class="wavy-border">
-      <img src="images/waveborderLightorange.png" alt="" />
-    </div>
-    <!-- X - X - X -->
 
-    <!-- Pricing -->
-    <section class="pricing container Vcontainer" id="pricing">
-      <!-- left shapes -->
-      <div>
-        <img class="shape" id="shape8" src="images/pricing/shapes8.png" alt="" srcset="" />
-        <img class="shape" id="shape9" src="images/pricing/shapes9.png" alt="" srcset="" />
-        <img class="shape" id="shape10" src="images/pricing/shapes10.png" alt="" srcset="" />
-      </div>
-      <!-- right shapes -->
-      <div>
-        <img class="shape" id="shape11" src="images/pricing/shapes11.png" alt="" srcset="" />
-        <img class="shape" id="shape12" src="images/pricing/shapes12.png" alt="" srcset="" />
-        <img class="shape" id="shape13" src="images/pricing/shapes13.png" alt="" srcset="" />
-      </div>
-      <!-- Header -->
-      <div class="pricingHeader">
-        <h1 class="font72">Clear and Transparent Pricing</h1>
-        <p class="font20 mT30">
-          We offer flexible pricing options to help you get the most value for
-          your projects. Our pricing is competitive and affordable, making our
-          product accessible to businesses of all sizes. Fixed monthly price
-          to cover all of your design needs. Whether it's branding, packaging,
-          web development or everything in between.
-        </p>
-        <div class="mT50">
-          <a href="#a" class="link">Book a call</a>
-          <a href="#a" class="link">Send a message</a>
-        </div>
-      </div>
-      <!-- pricing card -->
-      <div class="pricingCard">
-        <div class="rotate">
-          <img src="images/pricing/rotatingshape.png" alt="" srcset="" />
-          <p>Everything covered in single price</p>
-        </div>
-        <div class="pricingCard_inner">
-          <div class="pricingCard_header">
-            <h1 class="font64">Pricing</h1>
-            <p class="font20 mT30">
-              Simple monthly flat fee covers the lot. Unlimited design
-              requests, unlimited revisions, unlimited brands and users.
-            </p>
-            <h2 class="font48 mT20">$3200 p/m</h2>
-            <p class="font20 bold mT10">Plus VAT</p>
-            <div class="mT50">
-              <a href="#a" class="btn">Get Started</a>
-            </div>
-            <div class="mT50">
-              <a href="#a" class="link">Book a call</a>
-            </div>
-          </div>
-          <div class="pricingCard_table">
-            <h1 class="font64">What's included</h1>
-            <div>
-              <ul class="font20 bold">
-                <li>UI & UX</li>
-                <li>Web Design</li>
-                <li>Logo Design</li>
-                <li>Branding</li>
-                <li>Design guidelines documents</li>
-                <li>Flyers and brochures</li>
-                <li>Packaging</li>
-                <li>Stationery</li>
-                <li>Infographics</li>
-              </ul>
-              <ul class="font20 bold">
-                <li>Maintenance</li>
-                <li>Unlimited stock photos</li>
-                <li>Unlimited requests</li>
-                <li>Web Development</li>
-                <li>Iconography</li>
-                <li>Email templates</li>
-                <li>Mobile Development</li>
-                <li>Email templates</li>
-                <li>Unlimited stock photos</li>
-              </ul>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-    <!-- X - X - X -->
-
-    <!-- wavy-border -->
-    <div class="wavy-border">
-      <img src="images/waveborderyellow.png" alt="" />
-    </div>
-    <!-- X - X - X -->
-
-    <!-- FAQ -->
-    <section class="faq container Vcontainer" id="faq">
-      <div class="faq_inner">
-        <h1 class="font72">Frequently asked questions</h1>
-        <div class="mT50">
-          <div class="question">
-            <h2 class="font40">What is your refund policy?</h2>
-            <p class="font20 mT20">
-              If project has already started then you can’t get refunds, But
-              if you've selected a subscription package and decide it's not
-              for you (and providing project hasn't started) then you can
-              receive a refund.
-            </p>
-          </div>
-          <div class="question">
-            <h2 class="font40">How do I find out more about you?</h2>
-            <p class="font20 mT20">
-              Please feel free to book a call with me or drop me an email at
-              olivia@portfolio.co.uk
-            </p>
-          </div>
-          <div class="question">
-            <h2 class="font40">Who does the project?</h2>
-            <p class="font20 mT20">
-              I do all the projects with myself, That means no out-sourcing
-              and no other freelancers. I may call on specialists from time to
-              time, for example if the project requires some wonderful
-              animation, but for everything else you can be guaranteed that I
-              will be working on your project.
-            </p>
-          </div>
-          <div class="question">
-            <h2 class="font40">Do I own the project?</h2>
-            <p class="font20 mT20">
-              Obviously yes, once you will happy with the project and
-              everything's fully accepted by you, Then i’ll give a source file
-              to you.
-            </p>
-          </div>
-          <div class="question">
-            <h2 class="font40">Which tools do you use?</h2>
-            <p class="font20 mT20">
-              Adobe Photoshop, Illustrator Indesign and Figma for designing
-              stuff and also i use vsCode for coding stuff.
-            </p>
-          </div>
-          <div class="question">
-            <h2 class="font40">Is it really unlimited requests?</h2>
-            <p class="font20 mT20">
-              Yes, definitely. Once you subscribed, you'll be able to add
-              unlimited design requests and they'll be processed one by one
-              based on your priorities.
-            </p>
-          </div>
-          <div class="question">
-            <h2 class="font40">When will I receive my project?</h2>
-            <p class="font20 mT20">
-              It depends upon project. But i’ll try my best to complete
-              earlier as soon as possible.
-            </p>
-          </div>
-        </div>
-      </div>
-      <!-- FAQ bg shapes -->
-      <div id="faqShape">
-        <img class="shape" id="shape14" src="images/faq/shapes14.png" alt="" srcset="" />
-        <img class="shape" id="shape15" src="images/faq/shapes15.png" alt="" srcset="" />
-        <img class="shape" id="shape16" src="images/faq/shapes16.png" alt="" srcset="" />
-        <img class="shape" id="shape17" src="images/faq/shapes17.png" alt="" srcset="" />
-        <img class="shape" id="shape18" src="images/faq/shapes18.png" alt="" srcset="" />
-        <img class="shape" id="shape19" src="images/faq/shapes19.png" alt="" srcset="" />
-        <img class="shape" id="shape20" src="images/faq/shapes20.png" alt="" srcset="" />
-      </div>
-      <div id="faqShape">
-        <img class="shape" id="shape21" src="images/faq/shapes21.png" alt="" srcset="" />
-        <img class="shape" id="shape22" src="images/faq/shapes22.png" alt="" srcset="" />
-        <img class="shape" id="shape23" src="images/faq/shapes23.png" alt="" srcset="" />
-      </div>
-    </section>
-    <!-- X - X - X -->
 
     <!-- wavy-border -->
     <div class="wavy-border">
@@ -368,17 +319,16 @@
     <!-- X - X - X -->
 
     <!-- Get in Touch -->
-    <section class="getintouch container Vcontainer" id="hire">
+    <section class="getintouch container Vcontainer" id="contact">
       <div>
         <h1 class="font72">Let’s build something awesome together!</h1>
         <p class="font20 mT30">
-          Still need convincing? Then Book a call and find out more about the
-          entire project process. I'll talk you through skype or google meet
-          for how to make a project request, After receiving first project you
-          can give me a feedback or everything other questions you might have.
+          Still need convincing? Then Book a call and find out more about the whole project process. I will talk to you
+          via email, whatsapp or google meet for how to make a project request, After receiving the first project, you
+          can provide feedback or all other questions you may have.
         </p>
         <div class="mT70">
-          <a href="#a" class="btn">Get in Touch</a>
+          <a href="mailto:cp@aji.biz.id" class="btn">Get in Touch</a>
         </div>
       </div>
     </section>
@@ -393,13 +343,14 @@
     <!-- Footer -->
     <section class="footer container">
       <div class="flogo">
-        <h1 class="font48">Portfolio.</h1>
-        <p class="font20 mT20">© 2023 portfolio. | All Rights Reserved</p>
+        <h1 class="font48">Chahyo Purnomo Aji.</h1>
+        <p class="font20 mT20">© 2023 Chahyo Purnomo Aji. | All Rights Reserved</p>
       </div>
       <div class="flink">
-        <a href="#a" class="font20">Privacy Policy</a>
-        <a href="#a" class="font20 mT20">Terms & Conditions</a>
+        <a href="https://github.com/ajizblast" class="font20">Github</a>
+        <a href="https://linkedin.com/in/chahyo" class="font20 mT20">Linkedin</a>
       </div>
+
     </section>
     <!-- X - X - X -->
   </div>

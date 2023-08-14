@@ -7,6 +7,7 @@
 @import url(components/faq.css);
 @import url(components/getintouch.css);
 @import url(components/footer.css);
+@import url(components/icon.css);
 
 :root {
     --black: #161616;
@@ -19,7 +20,8 @@
     box-sizing: border-box;
 }
 
-html, body {
+html,
+body {
     overflow-x: hidden;
     font-family: NeuHaasM, sans-serif !important;
     scroll-behavior: smooth;
@@ -671,8 +673,12 @@ section {
         font-size: 5vw;
     }
 
-    .RNB {
-        margin-bottom: 10vw;
+    a .RNB {
+        margin-bottom: 16vw;
+    }
+
+    .RNBT {
+        margin-top: 90vw;
     }
 
     /*- hero -*/
